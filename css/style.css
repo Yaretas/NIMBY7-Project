@@ -28,10 +28,10 @@ html, body{
 
 /* slideshow------------------- */
 .slide-showcase h1{
- font-size: 60px;
- text-shadow: 2px 2px rgb(199, 192, 193);
- text-align: center;
- text-transform: capitalize;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(199, 192, 193);
+    text-align: center;
 }
 .slider {
     display: block;
@@ -63,7 +63,10 @@ html, body{
 .about-us  {
     padding: 50px;
     margin: 100px auto;
+    color: grey;
 }
 .about-us h2 {
+    color: black;
     text-align: center;
+    text-shadow: 2px 2px rgb(199, 192, 193);
 }
