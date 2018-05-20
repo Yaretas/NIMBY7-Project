@@ -19,7 +19,7 @@ html, body{
 
 .nav-bar li a {
     display: block;
-    color: white;
+    color: grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +29,7 @@ html, body{
 /* slideshow------------------- */
 .slide-showcase h1{
     font-family: 'Permanent Marker', cursive;
-    font-size: 60px;
+    font-size: 70px;
     text-shadow: 2px 2px rgb(199, 192, 193);
     text-align: center;
 }
@@ -42,6 +42,9 @@ html, body{
     background-repeat: no-repeat;
     margin: 100px auto;
     animation: slide 20s infinite;
+}
+.slider{
+    border-bottom: 5px solid black;
 }
 
 @keyframes slide {
@@ -61,12 +64,22 @@ html, body{
 
 /* about-us------ */
 .about-us  {
-    padding: 50px;
+    padding: 35px;
     margin: 100px auto;
     color: grey;
+    font-size: 35px;
 }
 .about-us h2 {
-    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: rgb(199, 192, 193);
     text-align: center;
-    text-shadow: 2px 2px rgb(199, 192, 193);
+    text-shadow: 2px 2px black ;
+}
+
+.faqs-area img{
+   width: 100%;
+   height: 300px;
+   margin: 0;
+   padding: 10px;
 }
