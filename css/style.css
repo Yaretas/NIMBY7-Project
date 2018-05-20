@@ -30,7 +30,8 @@ html, body{
 .slide-showcase h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 70px;
-    text-shadow: 2px 2px rgb(199, 192, 193);
+    color: rgb(199, 192, 193);
+    text-shadow: 2px 2px black;
     text-align: center;
 }
 .slider {
@@ -60,6 +61,13 @@ html, body{
     100%{
         background: url("../img/Rape-and-beaten-by-men.jpg")
     }
+}
+
+/* separation line------------ */
+
+.line {
+    border-bottom: 5px solid white;
+
 }
 
 /* about-us------ */
